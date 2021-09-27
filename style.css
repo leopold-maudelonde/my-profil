@@ -1,0 +1,153 @@
+body{
+	background-color:  rgba(200,200,200,0.5);
+	color: rgb(0,0,0);
+	font-family:  Helvetica;
+	font-size:  17px;
+}
+
+h1, h2{
+	font-family:  Courier;
+}
+
+h1 {
+	color:  rgb(126, 38, 68);
+	font-size: 32px;
+}
+
+h2 {
+	color:  rgb(89, 112, 177);
+	font-size: 24px;
+	font-weight:  bold;
+}
+
+a {
+	text-decoration:  none;
+	color:  rgb(64, 119, 90);
+}
+
+a:hover{
+	color: rgb(12, 69, 23);
+}
+
+
+/*Customs design with class*/
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.shadowed {
+	box-shadow: 1px 1px 30px black;
+}
+
+#pdp {
+	border:  5px solid rgb(126,38,68);
+	width: 200px;
+}
+
+.list-inline{
+	list-style:  none;
+	padding-left: 0px;
+}
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+.container{
+    width: 1200px;
+    margin: 40px auto;
+}
+
+.card-white {
+    background: white;
+    padding: 50px;
+    margin: 50px;
+    box-shadow: 0px 10px 30px rgb(0,0,0,0.1);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btn-blue{
+	background-color:  rgb(116, 140, 171);
+	color: white;
+	padding:  15px 20px;
+	border-radius: 5px;
+}
+
+.btn-blue:hover{
+	background-color: black;
+	color: white;
+}
+
+.list-inline i{
+	font-size:  40px;
+	background-color: white 
+	color: rgb(116, 140, 171);
+}
+
+.list-inline i:hover{
+	background-color: white;
+	color: black;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 750px;
+    margin: 40px auto;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 20px auto;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 10px auto;
+  }
+}
+
+/*Design adjustments using id*/
+
+#introduction p{ 
+	margin-bottom:  40px;
+}
+
+#liste {
+	margin-bottom:  40px;
+}
+
+/*Contenu dans le cadre des créations personnelles*/
+
+.photo-creations {
+	border-radius: 5px;
+	height: 400px;
+}
+
+.photo-article{
+	width: 1000px;
+}
+
+.video-responsive { overflow:hidden; padding-bottom:56.25%; position:relative; height:0;
+}
+
+.video-responsive iframe { left:0; top:0; height:100%; width:100%; position:absolute;
+}
+
+.article-responsive { 
+	overflow:hidden;
+	padding-bottom:40%;  
+	position:relative; 
+	border-width:3px; 
+ 	border-style:solid; 
+ 	border-color:black;
+}
+
+.article-responsive iframe { left:0; top:0; height:100%; width:100%; position:absolute;
+}
